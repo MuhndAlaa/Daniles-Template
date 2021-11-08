@@ -1,0 +1,220 @@
+/* General Classes */
+
+.light-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.dark-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    color: #343434;
+}
+
+.grey-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    color: #748182;
+}
+
+.light-poppins {
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+}
+
+.grey-poppins {
+    font-family: 'poppins', sans-serif;
+    color: #748182;
+}
+
+.dark-poppins {
+    font-family: 'poppins', sans-serif;
+    color: #343434;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.bg-grey {
+    background-color: #f7f7f7;
+}
+
+
+/* header classes */
+
+header {
+    background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+}
+
+.social-icons i {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.social-icons i:hover {
+    color: #5050ff;
+}
+
+
+/* section about me  */
+
+.bg-black {
+    background-color: #1c1c1c;
+}
+
+.prog-bar {
+    height: 20px;
+}
+
+#down-btn {
+    width: 25%;
+}
+
+#down-btn:hover {
+    background-color: transparent;
+}
+
+#contact-btn {
+    width: 25%;
+}
+
+#contact-btn:hover {
+    background-color: #1c1c1c;
+}
+
+
+/* section services */
+
+.service-icon {
+    width: 4em;
+    height: 4em;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+}
+
+.service-icon:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#services {
+    background-color: #f7f7f7;
+}
+
+
+/* section portfoilo */
+
+#portfoilo .card-body {
+    opacity: 0;
+    position: absolute;
+    width: 96%;
+    height: 96%;
+    top: 10%;
+    left: 2%;
+    overflow: hidden;
+    background-color: #fff;
+    transition: 100ms opacity, 500ms top;
+}
+
+#portfoilo .card-body i {
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+#portfoilo .card {
+    position: relative;
+}
+
+#portfoilo .card:hover .card-body {
+    opacity: 1;
+    top: 2%;
+}
+
+#portfoilo .card .card-body h6 {
+    position: relative;
+    bottom: 10px;
+    transition: 500ms 500ms bottom;
+}
+
+#portfoilo .card:hover h6 {
+    bottom: 0;
+}
+
+#portfoilo .card .card-body i {
+    position: relative;
+    top: 10px;
+    transition: 500ms 500ms top;
+}
+
+#portfoilo .card:hover i {
+    top: 0;
+}
+
+
+/* section testimonials */
+
+.carousel-item img {
+    width: 10rem;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+
+/* section counter */
+
+#counter {
+    color: #343434;
+}
+
+#counter i {
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+
+/* section blog */
+
+#blog img {
+    transition: transform 1s;
+}
+
+#blog .card:hover img {
+    transform: scale(1.2);
+}
+
+
+/* section contactus */
+
+#contactus i {
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+}
+
+.innerform {
+    padding: 0 75px;
+}
